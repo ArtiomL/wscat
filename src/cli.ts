@@ -10,6 +10,7 @@ interface ICLIOptions {
     deflate: boolean
     keepOpen: boolean
     listen?: number
+    subProto?: string
 }
 
 const parser = new ArgumentParser({version, addHelp: true})
