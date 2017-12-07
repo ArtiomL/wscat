@@ -40,10 +40,10 @@ parser.addArgument(['-d', '--deflate'], {
 })
 
 parser.addArgument(['-s', '--subprotocol'], {
-    type: String,
-    metavar: 'SUBP',
     dest: 'subProto',
     help: 'WebSocket subprotocol',
+    metavar: 'SUBP',
+    type: String,
 })
 
 parser.addArgument(['address'], {
