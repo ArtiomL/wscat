@@ -39,6 +39,13 @@ parser.addArgument(['-d', '--deflate'], {
     help: 'Use per-message deflate.',
 })
 
+parser.addArgument(['-s', '--subprotocol'], {
+    type: String,
+    metavar: 'SUBP',
+    dest: 'subProto',
+    help: 'WebSocket subprotocol',
+})
+
 parser.addArgument(['address'], {
     nargs: '?',
     type: String,
@@ -52,6 +59,7 @@ const options: any = {
     keepOpen: args.keepOpen,
     outputStream: process.stdout,
     perMessageDeflate: args.deflate,
+    protocol: args.subProto,
 }
 
 if (args.address) {
