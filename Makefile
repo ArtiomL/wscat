@@ -16,7 +16,7 @@ lint: node_modules
 .PHONY: lib
 lib: node_modules
 	tsc -p tsconfig.json
-	sed -i "" "1s/ts-node/node/" lib/cli.js
+	sed -i "1s/ts-node/node/" lib/cli.js
 	rm lib/cli.d.ts
 
 node_modules:
