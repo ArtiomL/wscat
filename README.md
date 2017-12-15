@@ -1,5 +1,5 @@
 
-wscat3
+wscat3 [![Build Status](https://img.shields.io/travis/ArtiomL/wscat.svg)](https://travis-ci.org/ArtiomL/wscat)
 ======
 
 Unix-style WebSocket cat (or netcat for websockets).
