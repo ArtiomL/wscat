@@ -1,3 +1,25 @@
+# <img align="center" src="img/wscat.svg" width="70">&nbsp;&nbsp;wscat3
+[![Build Status](https://img.shields.io/travis/ArtiomL/wscat.svg)](https://travis-ci.org/ArtiomL/wscat)
+[![Releases](https://img.shields.io/github/release/ArtiomL/wscat.svg)](https://github.com/ArtiomL/wscat/releases)
+[![Commits](https://img.shields.io/github/commits-since/ArtiomL/wscat/v1.0.5.svg?label=commits%20since)](https://github.com/ArtiomL/wscat/commits/master)
+[![Maintenance](https://img.shields.io/maintenance/yes/2017.svg)](https://github.com/ArtiomL/wscat/graphs/code-frequency)
+[![Issues](https://img.shields.io/github/issues/ArtiomL/wscat.svg)](https://github.com/ArtiomL/wscat/issues)
+[![Docker Hub](https://img.shields.io/docker/pulls/artioml/wscat.svg)](https://hub.docker.com/r/artioml/wscat/)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
+
+&nbsp;&nbsp;
+
+## Table of Contents
+- [Description](#description)
+- [Installation](#installation)
+	- [Main Site](#main-site)
+	- [WebSocket Echo](#websocket-echo)
+- [License](LICENSE)
+
+&nbsp;&nbsp;
+
+## Description
+
 
 wscat3 [![Build Status](https://img.shields.io/travis/ArtiomL/wscat.svg)](https://travis-ci.org/ArtiomL/wscat)
 ======
