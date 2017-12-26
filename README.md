@@ -4,6 +4,7 @@
 [![Commits](https://img.shields.io/github/commits-since/ArtiomL/wscat/v1.0.5.svg?label=commits%20since)](https://github.com/ArtiomL/wscat/commits/master)
 [![Maintenance](https://img.shields.io/maintenance/yes/2017.svg)](https://github.com/ArtiomL/wscat/graphs/code-frequency)
 [![Issues](https://img.shields.io/github/issues/ArtiomL/wscat.svg)](https://github.com/ArtiomL/wscat/issues)
+[![npm Downloads](https://img.shields.io/npm/dt/wscat3.svg)](https://www.npmjs.com/package/wscat3)
 [![License](https://img.shields.io/badge/license-BSD3-blue.svg)](/LICENSE)
 
 &nbsp;&nbsp;
