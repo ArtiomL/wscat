@@ -93,36 +93,3 @@ $ wscat -b localhost:12345 > igotacat.jpg
 ```
 
 Note that you can have the client send the file as well, after the connection has been setup `wscat` does not differentiate between server/client.
-
-### Get your bitcoin on
-
-```
-$ echo '{"op":"unconfirmed_sub"}' | wscat -k wss://ws.blockchain.info/inv
-```
-
-The `-k` option is used to keep the socket open after the command has been sent, allowing us to read the continuous stream of bitcoin transactions.
-
-
-License
--------
-
-[BSD 3-Clause](https://tldrlegal.com/license/bsd-3-clause-license-(revised))
-
----
-
-```
-
-       /\_/\                    /\_/\
-      / 0 0 \                  / o o \
-     ====v====                ====C====          __   __
-      \  W  /                  \  V  /         _(  )_(  )_
-      |     |     _            |     |     .-=(_   WEB  _)
-      / ___ \    /             / ___ \    /     (__   __)
-     / /   \ \  |             / /   \ \  |        (__)
-    (((-----)))-'            (((-----)))-'
-     /                        /
-    (      ___      ___      /
-     \__.=|___|E    3__|=.__/
-            /       ^
-
-```
