@@ -34,7 +34,7 @@ Usage
 -----
 
 ```
-$ wscat -h
+$ wscat --help
 usage: wscat [-h] [-v] [-l PORT] [-b] [-k] [-d] [-s SUBP] [address]
 
 Positional arguments:
@@ -50,7 +50,6 @@ Optional arguments:
   -d, --deflate         Use per-message deflate.
   -s SUBP, --subprotocol SUBP
                         WebSocket subprotocol
-
 ```
 
 Examples
