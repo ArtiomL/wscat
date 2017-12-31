@@ -2,7 +2,7 @@
 [![Build Status](https://img.shields.io/travis/ArtiomL/wscat.svg)](https://travis-ci.org/ArtiomL/wscat)
 [![Releases](https://img.shields.io/github/release/ArtiomL/wscat.svg)](https://github.com/ArtiomL/wscat/releases)
 [![Commits](https://img.shields.io/github/commits-since/ArtiomL/wscat/v3.0.2.svg?label=commits%20since)](https://github.com/ArtiomL/wscat/commits/master)
-[![Maintenance](https://img.shields.io/maintenance/yes/2017.svg)](https://github.com/ArtiomL/wscat/graphs/code-frequency)
+[![Maintenance](https://img.shields.io/maintenance/yes/2018.svg)](https://github.com/ArtiomL/wscat/graphs/code-frequency)
 [![Issues](https://img.shields.io/github/issues/ArtiomL/wscat.svg)](https://github.com/ArtiomL/wscat/issues)
 [![npm Downloads](https://img.shields.io/npm/dt/wscat3.svg)](https://www.npmjs.com/package/wscat3)
 [![License](https://img.shields.io/badge/license-BSD3-blue.svg)](/LICENSE)
