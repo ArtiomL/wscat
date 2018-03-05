@@ -12,6 +12,7 @@
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
+- [Help](#--help)
 - [License](LICENSE)
 
 &nbsp;&nbsp;
