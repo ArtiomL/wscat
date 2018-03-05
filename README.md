@@ -31,8 +31,9 @@ Forked from [jnordberg/wscat](https://github.com/jnordberg/wscat).
 npm install -g wscat3
 ```
 
-Examples
---------
+&nbsp;&nbsp;
+
+## Examples
 
 If you ever used `nc`, `wscat` works pretty much the same.
 
