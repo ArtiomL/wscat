@@ -31,28 +31,6 @@ Forked from [jnordberg/wscat](https://github.com/jnordberg/wscat).
 npm install -g wscat3
 ```
 
-Usage
------
-
-```
-$ wscat --help
-usage: wscat [-h] [-v] [-l PORT] [-b] [-k] [-d] [-s SUBP] [address]
-
-Positional arguments:
-  address
-
-Optional arguments:
-  -h, --help            Show this help message and exit.
-  -v, --version         Show program's version number and exit.
-  -l PORT, --listen PORT
-                        Start a websocket server on PORT.
-  -b, --binary          Use binary WebSockets.
-  -k, --keep-open       Do not close the socket after EOF.
-  -d, --deflate         Use per-message deflate.
-  -s SUBP, --subprotocol SUBP
-                        WebSocket subprotocol
-```
-
 Examples
 --------
 
@@ -111,3 +89,26 @@ $ wscat -b localhost:12345 > igotacat.jpg
 ```
 
 Note that you can have the client send the file as well, after the connection has been setup `wscat` does not differentiate between server/client.
+
+
+&nbsp;&nbsp;
+
+## --help
+```shell
+$ wscat --help
+usage: wscat [-h] [-v] [-l PORT] [-b] [-k] [-d] [-s SUBP] [address]
+
+Positional arguments:
+  address
+
+Optional arguments:
+  -h, --help            Show this help message and exit.
+  -v, --version         Show program's version number and exit.
+  -l PORT, --listen PORT
+                        Start a websocket server on PORT.
+  -b, --binary          Use binary WebSockets.
+  -k, --keep-open       Do not close the socket after EOF.
+  -d, --deflate         Use per-message deflate.
+  -s SUBP, --subprotocol SUBP
+                        WebSocket subprotocol
+```
